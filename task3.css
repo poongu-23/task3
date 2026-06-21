@@ -1,0 +1,94 @@
+#box{
+    border-top: 5px solid rgb(118, 118, 232);
+    border-bottom: 5px solid rgb(41, 144, 217);
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-width: 5px;
+    border-radius: 8px;
+    margin-top: 20px;
+    outline: 5px solid blue;
+    outline-offset: 5px;
+    width: 280px;
+    height: 150px;
+    background-image: url("https://www.w3schools.com/css/img_mountains.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#top-right{
+    border-top: 5px solid brown;
+    border-bottom: 5px solid brown;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    outline: 5px solid rgb(1, 1, 11);
+    outline-offset: 5px;
+    border-style: dashed;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 280px;
+    height: 150px;
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bottom-right{
+    border-top: 5px solid rgb(51, 220, 59);
+    border-bottom: 5px solid rgba(102, 215, 54, 0.985);
+    border-left: 5px solid rgb(170, 199, 5);
+    border-right: 5px solid rgb(166, 232, 176);
+    outline: 5px solid rgb(11, 160, 83);
+    outline-offset: 5px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 280px;
+    height: 150px;
+    background-image: url("https://www.w3schools.com/css/img_forest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#bottom-left{
+    background-color: aliceblue;
+    border-top: 5px solid rgb(208, 107, 30);
+    border-bottom: 5px solid brown;
+    border-left: 5px solid rgba(217, 37, 76, 0.966);
+    border-right: 5px solid black;
+    outline: 5px solid brown;
+    outline-offset: 5px;
+    position: absolute;
+    border-style: double;
+    bottom: 20px;
+    left: 20px;
+    width: 280px;
+    height: 150px;
+    background-image: url("https://www.w3schools.com/css/paris.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#center{
+    background-color: aliceblue;
+    border-top: 5px solid rgb(31, 131, 189);
+    border-bottom: 5px solid rgb(78, 24, 158);
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    outline: 5px solid rgb(19, 130, 186);
+    outline-offset: 5px;
+    position: absolute;
+    border-style: dotted;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 280px;
+    height: 150px;
+    background-image: url("https://www.w3schools.com/css/img_5terre.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
